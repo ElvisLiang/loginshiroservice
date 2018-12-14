@@ -8,6 +8,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 @FeignClient
 public class LoginshiroserviceApplication {
 
+
 	public static void main(String[] args) {
 		SpringApplication.run(LoginshiroserviceApplication.class, args);
 	}
