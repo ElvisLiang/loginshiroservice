@@ -1,3 +1,4 @@
+/*
 package com.loginshiroservice.loginshiroservice.config;
 
 import com.shiroproject.usershiroservice.entity.User;
@@ -14,11 +15,13 @@ import org.springframework.util.ObjectUtils;
 public class UserRealm extends AuthorizingRealm {
 
 
-    /**
+    */
+/**
      * 进行授权
      * @param principals
      * @return
-     */
+     *//*
+
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
         if(ObjectUtils.isEmpty(principals)){
@@ -28,14 +31,17 @@ public class UserRealm extends AuthorizingRealm {
         return null;
     }
 
-    /**
+    */
+/**
      * 进行认证
      * @param token
      * @return
      * @throws AuthenticationException
-     */
+     *//*
+
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
         return null;
     }
 }
+*/
